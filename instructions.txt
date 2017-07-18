@@ -1,0 +1,33 @@
+Quick chat setup :
+------------------
+
+1. Open a text editor and update the "index.html" file with the line :
+<PARAM name="server" value="irc.your-chat-server.com">
+
+2. Launch your FTP or other file transfert software, then upload
+the "chat" directory to your web site.
+
+3. Lauch your Internet browser, then go to http://your-site-url/chat/
+and wait for the Java to be loaded.
+
+Have a nice chat !
+
+Check for updates at http://www.coolsmile.net
+
+
+
+Installation rapide :
+---------------------
+
+1. Ouvrez le fichier "index.html" et mettez à jour cette ligne :
+<PARAM name="server" value="irc.votre-serveur-de-chat.com">
+
+2. Lancez votre client FTP ou autre logiciel de transfert de fichier,
+ensuite transferez le répertoire "chat" vers votre site web.
+
+3. Lancez votre navigateur Internet, et allez à http://adresse-de-votre-site/chat/
+et attendez le chargement du Java.
+
+Bon chat !
+
+Vérifiez les mises à jour sur http://www.coolsmile.net

@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pIRC\n"
+"POT-Creation-Date: 2013-01-07 01:06+0100\n"
+"PO-Revision-Date: 2013-01-07 01:12+0100\n"
+"Last-Translator: Powie <te@powie.de>\n"
+"Language-Team: powie.de <te@powie.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../pirc_settings.php:3 ../powies-irc-chat.php:27
+msgid "PIRC Settings"
+msgstr "PIRC Einstellungen"
+
+#: ../pirc_settings.php:10
+msgid "Chat Settings"
+msgstr "Chat Einstellungen"
+
+#: ../pirc_settings.php:14
+msgid "IRC Server"
+msgstr "IRC Server (Host)"
+
+#: ../pirc_settings.php:18
+msgid "Server Port"
+msgstr "Server Port"
+
+#: ../pirc_settings.php:20
+msgid "Default: <code>6667</code>"
+msgstr "Standard: <code>6667</code>"
+
+#: ../pirc_settings.php:23
+msgid "Channels to join"
+msgstr "Start Channel"
+
+#: ../pirc_settings.php:26
+msgid ""
+"A list of channels to join after connect, seperated by <b>,</b> "
+"<code>#Chan1, #Chan2</code>."
+msgstr ""
+"Eine Liste mit Channels die nach dem Start betreten werden, getrennt mit , "
+"Bsp.: <code>#Chan1, #Chan2</code>."
+
+#: ../pirc_settings.php:30
+msgid "Chat window size"
+msgstr "Chat Größe"
+
+#: ../pirc_settings.php:32
+msgid "Width:"
+msgstr "Breite:"
+
+#: ../pirc_settings.php:33
+msgid "Height:"
+msgstr "Höhe:"
+
+#: ../pirc_settings.php:40
+msgid "Save Changes"
+msgstr "Speichern"
+
+#: ../pirc_settings.php:46
+msgid "PIRC Usage"
+msgstr "PIRC Benutzung"
+
+#: ../pirc_settings.php:48
+msgid ""
+"Simple use a shortcode on a page of your choice or create a new page and "
+"insert the following shortcode: <b>[pirc]</b>."
+msgstr ""
+"Benutze einfach den Shortcode auf einer Seite oder in einem Beitrag deiner "
+"Wahl oder erstelle einen neue Seite mit dem Shortcode: <b>[pirc]</b>."
+
+#: ../pirc_settings.php:50
+msgid "Happy IRCing"
+msgstr "Viel Spass beim Chatten!"
+
+#: ../pirc_settings.php:55
+msgid "About"
+msgstr "Über"
+
+#: ../powies-irc-chat.php:58
+msgid "Guest??"
+msgstr "Gast??"
+
+#: ../powies-irc-chat.php:59
+msgid "WP pirc"
+msgstr "WP pirc Gast"

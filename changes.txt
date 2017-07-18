@@ -1,0 +1,189 @@
+
+Beta 20120410
+-------------
+- New command /CHARSET [set name]
+- Added new charset "IRC-mixed" which decodes Latin1 and UTF-8 mixed in a single message.
+- Small partial support of numeric 005 RPL_ISUPPORT (actually PREFIX and MODES).
+- Optimized display when it has animated images.
+- Updated right-click menu on dialog tabs, added "close unread privates".
+- Various minor cleaning and fixes.
+
+Beta 20111129
+-------------
+- New command /SAVE [path] to save configuration.
+- New <PARAM name="configuration"> or --configuration= to change configuration source.
+- Various fixes and optimization on nicklists.
+- Fixed HTTPS hyperlinks.
+- Fixed privates tab closing bug.
+
+Beta 20100821
+-------------
+- Updated resources loading for unsigned code.
+- Updated NickList and Mylist replaced.
+- IRCServices login update.
+- Fixed a small disconnect bug.
+- Set 6697 for default SSL port.
+- Minor changes and fixes.
+
+Beta 20100302
+-------------
+- SSL support. New command /SERVERSSL [host] [port] [passwd]
+- UTF-8 support. New encoding charset "IRC", mixing Latin1 and UTF-8.
+- Channels auto-join at start moved before channels auto-list.
+- Moved hyperlinks detection code to a new class.
+- Corrected sounds loader to save threads.
+- Light optimization of smiley areas, and improve focus support.
+- IPv6 small fix in protocol parsing.
+- Localized default quit message.
+- Removed Mirc attributes escaping (%B, %C....) from some classes.
+- User timestamps option.
+- Quick fix to a turkish locale-dependent bug.
+- Fixed default english help not displaying.
+
+Beta 20091221
+-------------
+- Made mouse wheel check code static at startup and a larger focus.
+- Setting text anti-alias on Graphics classes.
+- Some cleaning for various compilers and operating systems.
+- Replaced ms.com.security.* by java.lang.reflect calls.
+- Removed netscape.security.*
+- Updated navigator in configuration.properties.
+- Fixed a bug in MyList.
+- Smart lines height in NickItem and SmileyTextAreaArea.
+
+Beta 20091209
+-------------
+- Support for the mouse wheel (Java 1.4+)
+
+Beta 20081030
+-------------
+- Safer way to check channel modes in Channel.java
+
+Beta 20081029
+-------------
+- Small color bug fixed.
+
+Beta 20081027
+-------------
+- Helpbox now loads text files instead properties
+- Help files will be UTF8 encoded.
+
+Beta 20081024
+-------------
+- Language files cleanup.
+- Updated ChanListWindow layout.
+- Removed "date" from configuration.properties, to rely on locale.
+- Replaced default font "Helvetica" by "SansSerif".
+- Crash due to NickList bug fixed.
+
+Beta 20081012
+-------------
+- Updated Buttons (double buffering, new wait type)
+- Updated font list in Configurator.
+
+Beta 20080513
+-------------
+- Configurable nicklist menu, to add new commands.
+
+Beta 20080504
+-------------
+- New parameter "user_modes" to set or unset user modes after connexion.
+
+Beta 20080130
+-------------
+- ASL male gender is based on letter 'M', as often requested.
+
+Beta 20070409
+-------------
+- 7 new parameters "gui_nick" "gui_away" "gui_chanlist" etc.. to remove interface top elements.
+- Previous 3 config properties to hide buttons are deprecated.
+- New config properties "nolinks" to remove hyperlinks from chat windows.
+
+Beta 20070401
+-------------
+- New parameter "disabled_cmds" to disable commands. Note: use "restrict_join" to prevent joining channels.
+
+Beta 20060427
+-------------
+- Added new config properties "restrict_join", and 3 properties to show/hide upper panel buttons.
+
+Beta 20050720
+-------------
+- Added a new config property "net_encoding" to select character encoding. (UTF-8 not recommended)
+
+Beta 20050624
+-------------
+- Small fix on help window fonts.
+- Nicklist scrollbar bug fixed by Edison@irc.europnet.org
+- Reintroduced <PARAM name="language" ...> to skip language auto-detection.
+- Fixed a closing channel/private bug on Sun JVM.
+- Unleashed animated .gif, so smilies can come to life :=)
+- New commands : /DEBUG CONSOLE, /DEBUG ON, /DEBUG OFF (dump traffic to console or current panel).
+- Fixed several re-connection bugs : re-join properly keyed channels, reset global mode, reset nicklist, etc...
+- Fixed rollover location bug on nicklist.
+- Result of /NAMES command now is displayed.
+- Fixed not-clickable urls.
+- More strict check of urls bounds.
+- Fixed menu apparition problem on Apple MRJ.
+
+Beta 20060410
+-------------
+- Invite list supported (/MODE #channel +I).
+
+Beta 20050201
+-------------
+- Fixed a /MSG command bug.
+- Fixed a Notice display bug.
+
+Beta 20050129
+-------------
+- Fixed url click on bottom logo.
+- Replaced stats button with a help button.
+- Fixed rollover color bug in privates.
+- Changed the way nick RFC1459 compliance are checked.
+- Introduced <PARAM> for font name and size.
+- Minor corrections for IrcDreams ircd.
+
+Beta 20050123
+-------------
+- Channel modes +a (channel admin) and +q (channel owner) are handled.
+
+Beta 20050109
+-------------
+- Sounds should be ok.
+- Keyed channels +k will now work in the auto-join parameter.
+
+Beta 20040704
+-------------
+- Fixed and improved connection procedure.
+- Removed useless click sound events, added channel msg sound events.
+
+Beta 20040627
+-------------
+- Sended notices are echoed.
+- Fixed popmenu problem with Linux.
+- Corrected selected text color.
+- Corrected tab key completion support to fit Sun Java 1.4 classes.
+
+Beta 20040626
+-------------
+- More verbose debugging log.
+- Fixed a connection bug which prevented users to be Nickserv authenticated.
+- Changed "list_parameter" in config to fit more IRCd servers.
+- Rewrote sound class to be applications/applets/.au/urls compliant.
+- Introduced thread sounds loading (need fix anyway).
+- Sound can be off if a user get away.
+- Changed modal frames handling, because of a Sun Java bug in Linux, when applets were resized.
+- CTCP Ping is renamed as "/PINGTIME" and added "/PING" command to support IRC Ping.
+- Support of the "/USERHOST" command.
+- Changed CTCP Action sentences config a bit to fit any possible expression.
+- Default font size is 11 because of a fonts size bug in Linux.
+- Fixed locale loading bug which froze most international users.
+- Fixed a bug where small nicks where seen a bots.
+- Added a connection window with nick and a.s.l.
+- Added empty "BeanInfo" classes to get around Sun et MS's classloader bugs.
+
+Beta 20030412 released
+----------------------
+- Corrected canvas to handle double buffering.
+- Rewrote resources loading to consume less memory and prevent filling web servers logs at loading.
